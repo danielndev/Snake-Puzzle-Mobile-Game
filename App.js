@@ -74,33 +74,20 @@ const startGrid = [
 
 Audio.setAudioModeAsync({ playsInSilentModeIOS: true });
 
-// const iosAdUnitIds = {
-//   banner: "ca-app-pub-3940256099942544/2934735716",
-//   interstitial: "ca-app-pub-3940256099942544/4411468910",
-//   interstitialVideo: "ca-app-pub-3940256099942544/5135589807",
-//   rewarded: "ca-app-pub-3940256099942544/1712485313"
-// }
-
-// const androidAdUnitIds = {
-//   banner: "ca-app-pub-3940256099942544/6300978111",
-//   interstitial: "ca-app-pub-3940256099942544/1033173712",
-//   interstitialVideo: "ca-app-pub-3940256099942544/8691691433",
-//   rewarded: "ca-app-pub-3940256099942544/5224354917"
-// }
-
 const iosAdUnitIds = {
-  banner: "ca-app-pub-2666108410405288/3929194075",
-  interstitial: "ca-app-pub-2666108410405288/2663696941",
-  interstitialVideo: "ca-app-pub-3940256099942544/5135589807",
-  rewarded: "ca-app-pub-3940256099942544/1712485313"
+   banner: "ca-app-pub-3940256099942544/2934735716",
+   interstitial: "ca-app-pub-3940256099942544/4411468910",
+   interstitialVideo: "ca-app-pub-3940256099942544/5135589807",
+   rewarded: "ca-app-pub-3940256099942544/1712485313"
 }
 
 const androidAdUnitIds = {
-  banner: "ca-app-pub-2666108410405288/2386874086",
-  interstitial: "ca-app-pub-2666108410405288/2195302398",
-  interstitialVideo: "ca-app-pub-3940256099942544/8691691433",
-  rewarded: "ca-app-pub-3940256099942544/5224354917"
+   banner: "ca-app-pub-3940256099942544/6300978111",
+   interstitial: "ca-app-pub-3940256099942544/1033173712",
+   interstitialVideo: "ca-app-pub-3940256099942544/8691691433",
+   rewarded: "ca-app-pub-3940256099942544/5224354917"
 }
+
 
 const adUnitIds = Platform.OS == "ios" ? iosAdUnitIds : androidAdUnitIds;
 
